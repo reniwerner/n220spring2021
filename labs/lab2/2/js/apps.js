@@ -12,6 +12,6 @@ fill(230, 39, 68);
 if( mouseX < 200 ) {
     fill(39, 150, 230);
 }
-circle(mouseX, mouseY, 15, 15);
+circle(mouseX, mouseY, 20, 20);
 
 }
