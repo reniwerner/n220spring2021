@@ -1,13 +1,19 @@
 function setup() {
-    createCanvas(800, 600);
+    createCanvas(400, 400);
 }
-function draw() {
-    background(200);
 
+function draw(){
+    background(220);
+    noFill();
+    
 
-    for( var i = 0; 1 < 15; i++) {
-        stroke(255 - (i*15));
-
-        circle(200, 150, i * 10);
+    
+    
+    //For loop syntax
+    for( var i = 0; i < 30; i++) {
+        circle(200, 200, i * 6);
+        
+    
     }
+    
 }
