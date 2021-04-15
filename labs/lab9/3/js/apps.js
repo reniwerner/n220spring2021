@@ -1,6 +1,6 @@
 function createDiv(obj) {
     var div = document.createElement("div");    
-    div.innerText = "This is a div.";
+    div.innerText = "You created a div!";
     div.style.width = obj.width;
     div.style.height = obj.height;
     div.style.background=obj.color;
